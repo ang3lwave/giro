@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "GardensC";
+    src: url("fonts/GardensC.otf");
+}
+
+* {
+    font-family: "GardensC";
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section.panel {
+    width: 100%;
+    padding: 0 130px;
+}
+
+.section-title {
+    font-size: 50px;
+    color: #3d67b0;
+    text-align: center;
+}
+
+.text-upper{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.site-name{
+    font-size: 80px;
+}
+
+.btn-order {
+    background: #fff;
+    color: #3d67b0;
+    padding: 15px 25px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+
+.btn-white-big {
+    background: #fff;
+    color: #3d67b0;
+    padding: 15px 25px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+
+.btn.btn-primary {
+    background: #3d67b0;
+    border: #3d67b0;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.btn-up {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    padding: 15px;
+}
+
+.btn-up img {
+    width: 25px;
+}
+
+section#first-page .contact > .item p{
+    font-size: 12px;
+}
+
+section#first-page {
+    height: 100vh;
+    color: #fff;
+    background-image: url("../img/first-page-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+section#first-page > header {
+    width: 100%;
+    color: #fff;
+}
+section#first-page .logo img {
+    width: 100px;
+}
+
+section#first-page .contact > .item img {
+    width: 25px;
+    margin-right: 15px;
+}
+
+section#first-page .nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#first-page .nav li {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+section#advantages {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+section#advantages .item {
+    height: 100%;
+
+}
+
+section#advantages .item img {
+    height: 90%;
+}
+
+section#advantages .item p {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+section#about-segway {
+    margin-top: 150px;
+    position: relative;
+}
+
+section#about-segway .section-image {
+    height: 300px;
+}
+
+section#about-segway .title{
+    font-size: 30px;
+    color: #3d67b0;
+}
+
+section#about-segway .title img{
+    margin-right: 15px;
+    width: 30px;
+}
+
+section#about-segway ol{
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
